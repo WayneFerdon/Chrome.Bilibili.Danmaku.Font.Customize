@@ -4,7 +4,9 @@
 // @version          1.0.1
 // @description    Customize Danmu in bilibili.com
 // @author           WayneFerdon
-// @match           https://www.bilibili.com/*
+// @match           https://www.bilibili.com/video/*
+// @match           https://www.bilibili.com/bangumi/*
+// @match           https://www.bilibili.com/medialist/*
 // @require          http://code.jquery.com/jquery-1.11.0.min.js
 // @license          MIT
 // @icon              http://www.bilibili.com/favicon.ico
