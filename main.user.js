@@ -6,6 +6,8 @@
 // @author           WayneFerdon
 // @match           https://www.bilibili.com/*
 // @require          http://code.jquery.com/jquery-1.11.0.min.js
+// @license          MIT
+// @icon              http://www.bilibili.com/favicon.ico
 // ==/UserScript==
 
 (function() {
