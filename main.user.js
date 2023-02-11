@@ -7,6 +7,7 @@
 // @match           https://www.bilibili.com/video/*
 // @match           https://www.bilibili.com/bangumi/*
 // @match           https://www.bilibili.com/medialist/*
+// @match           https://www.bilibili.com/list/*
 // @require          http://code.jquery.com/jquery-1.11.0.min.js
 // @license          MIT
 // @icon              http://www.bilibili.com/favicon.ico
