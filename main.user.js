@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            B站弹幕字体自定义
 // @namespace    http://tampermonkey.net/
-// @version          1.0.3
+// @version          1.0.4
 // @description    Customize Danmu in bilibili.com
 // @author           WayneFerdon
 // @match           https://www.bilibili.com/video/*
