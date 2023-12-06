@@ -26,12 +26,17 @@
         function changeStyle(className, level=0) {
             try
             {
-                let danmu = $(document.getElementsByClassName(className)).children('div');
-                danmu.css('fontFamily','PingFang SF');
-                danmu.css('text-shadow','rgb(0, 0, 0) 1.5px 0px 1.5px, rgb(0, 0, 0) 0px 1.5px 1.5px, rgb(0, 0, 0) 0px -1.5px 1.5px, rgb(0, 0, 0) -1.5px 0px 1.5px');
+                let danmus = Array.from(document.getElementsByClassName("bili-dm"));
+                for(let i in danmus)
+                {
+                    var danmu = danmus[i]
+                    danmu.style?.setProperty('--fontFamily','PingFang SF');
+                    danmu.style?.setProperty('--textShadow','rgb(0, 0, 0) 1.5px 0px 1.5px, rgb(0, 0, 0) 0px 1.5px 1.5px, rgb(0, 0, 0) 0px -1.5px 1.5px, rgb(0, 0, 0) -1.5px 0px 1.5px');
+                }
             }
             catch(err)
             {
+                // alert(err)
                 if (level < 3) {
                     setTimeout(function() {
                         changeStyle(className, level+1);
