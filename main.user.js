@@ -38,9 +38,8 @@
                 }
             }
         }
-        changeStyle('bilibili-player-video-danmaku');
         changeStyle('bpx-player-row-dm-wrap');
+        changeStyle('bpx-player-row-dm-wrap bili-paused');
         return;
-
     };
 })();
