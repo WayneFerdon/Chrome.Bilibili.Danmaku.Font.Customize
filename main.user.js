@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name            B站弹幕字体自定义
+// @name            B站弹幕/CC字幕字体自定义
 // @namespace    http://tampermonkey.net/
-// @version          1.1.0
+// @version          1.2.0
 // @description    Customize Danmu in bilibili.com
 // @author           WayneFerdon
 // @match           https://www.bilibili.com/video/*
@@ -46,6 +46,7 @@
         }
         changeStyle('bpx-player-row-dm-wrap');
         changeStyle('bpx-player-row-dm-wrap bili-paused');
+        changeStyle('bpx-player-subtitle-panel-text');
         return;
     };
 })();
